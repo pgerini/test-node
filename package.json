@@ -9,5 +9,9 @@
 		"lodash": "^4.17.5",
 		"socket.io": "latest",
 		"yargs": "^11.0.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node app.js"
 	}
 }
