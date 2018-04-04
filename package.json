@@ -1,0 +1,13 @@
+{
+	"name": "testNode",
+	"version": "0.0.1",
+	"description": "applicazione di prova per Node.js - grazie allafinedelpalo.it!",
+	"dependencies": {
+		"eslint": "^4.19.1",
+		"express": "4.14.0",
+		"hbs": "^4.0.1",
+		"lodash": "^4.17.5",
+		"socket.io": "latest",
+		"yargs": "^11.0.0"
+	}
+}

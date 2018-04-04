@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Test Node.js - allafinedelpalo.it</title>
+		<script src="/socket.io/socket.io.js"></script>
+		<script>
+			var socket = io();
+
+			socket.on('allafine', function(data){
+				console.log(data.hello);
+				socket.emit('delpalo', { altro: 'valore' });
+			});
+		</script>
+	</head>
+	<body>
+		<h1>Ciao Node! - allafinedelpalo.it</h1>
+	</body>
+</html>
